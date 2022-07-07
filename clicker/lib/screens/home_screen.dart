@@ -100,7 +100,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 Navigator.pop(context);
               },
             ),
-            AboutListTile(
+            const AboutListTile(
               icon: Icon(Icons.info),
               child: Text('A propos'),
               applicationIcon: Icon(Icons.local_play),
